@@ -1,8 +1,6 @@
 package org.example.stepdefinitions;
 
 import io.cucumber.java.en.And;
-import io.cucumber.java.en.Then;
-import org.example.pageobject.pages.AddToCartConfirmationPage;
 import org.example.pageobject.pages.CartPage;
 
 import static org.example.stepdefinitions.BaseSteps.PAGES_STORAGE;
