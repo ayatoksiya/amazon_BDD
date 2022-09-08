@@ -23,11 +23,11 @@ public class RemoveFromCartConfirmationPage extends BasePage {
                            .visibilityOfElementLocated(By.xpath("//span[contains(text(), \"$0.00\")]")));
 
     public String checkIfRemovedFromCartPrice() {
-        return removalFinalPrice.getText();
+        return this.removalFinalPrice.getText();
     }
 
     public String checkIfRemovedFromCartText() {
-        return removalConfirmationText.getText();
+        return this.removalConfirmationText.getText();
     }
 }
 
